@@ -33,3 +33,10 @@ Let allows block scoping - meaning it’s still created and set in memory as ‘
 
 ### Asynchronous Events in Javascript
 JavaScript runs synchronously, but handles async events by putting the on an events stack, it looks at these once the execution stack has finished.
+
+###Associativity and Precedence
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+###Coercion
+coercion = converting a value from one type to another. This happens a lot in JavaScript because it is dynamically typed.
+ie var a = 1 + ‘2’; is ’12’ not 2 because of coercion.
