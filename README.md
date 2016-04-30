@@ -42,3 +42,4 @@ coercion = converting a value from one type to another. This happens a lot in Ja
 ie var a = 1 + ‘2’; is ’12’ not 2 because of coercion.
 
 False coerces  to 0 when converted to number, true coerces to 1.
+`console.log( 3 < 2 < 1); ` returns `true`
