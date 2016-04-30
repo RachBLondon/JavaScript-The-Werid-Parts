@@ -40,3 +40,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Oper
 ###Coercion
 coercion = converting a value from one type to another. This happens a lot in JavaScript because it is dynamically typed.
 ie var a = 1 + ‘2’; is ’12’ not 2 because of coercion.
+
+False coerces  to 0 when converted to number, true coerces to 1.
